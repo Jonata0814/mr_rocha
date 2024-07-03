@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+  background-color: black;
+  list-style: none;
+  text-decoration: none;
+}
+
+header {
+    height: 120px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #c7b144;
+}
+
+a {
+    border-radius: 5px;
+}
+
+nav {
+    width: 60%;
+    background-color: #c7b144;
+}
+
+ul {
+    display: flex;
+    width: 80%;
+    margin-left: 200px;
+    justify-content: space-between;
+    background-color: #c7b144;
+}
+
+.cor {
+    margin-top: 20px;
+    background-color: #c7b144;
+}
+
+li {
+    list-style: none;
+    color: aliceblue;
+    cursor: pointer;
+    font-size: 20px;
+    transition: .5s;
+    font-family: 'Rubik';
+    background-color: #c7b144;
+}
+
+li:hover {
+    color: black;
+}
+
+button {
+    width: 200px;
+    height: 60px;
+    background-color: #69613a;
+    color: #fff;
+    padding: 8px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.8s;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    border: none;
+    outline: none;
+}
+
+.button:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+#logo {
+    width: 110px;
+    height: auto;
+    border-radius: 50%;
+}
+
+#banner {
+    background-image: url('banners/barber.png');
+    background-position: 50% 43%;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+}
+
+.description {
+    margin-left: 900px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #fff;
+    font-size: 40px;
+    font-family: 'Rubik', Preto 900 ;
+    width: 400px;
+    height: 100px;
+}
+
+.texto {
+    align-items: flex-end;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #fff;
+    font-size: 35px;
+    font-family: 'Rubik';
+    width: 400px;
+    height: 100px;
+}
+
+.barbeiros {
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Rubik';
+    margin-top: 50px;
+    margin-left: 80px;
+}
+
+.barbers-cards-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px
+}
+
+.cards-content {
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 20px;
+    column-gap: 40px;
+}
+
+.card {
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 20px 10px;
+    color: #fff;
+    font-size: 17px;
+    font-family: 'Rubik';
+}
+
+.card:hover {
+    transform: scale(1.02);
+}
+
+.banner-1 {
+    background-image: url('banners/modelos\ \(1\).png');
+}
+
+.banner-2 {
+    background-image: url('banners/modelos\ \(2\).png');
+}
+
+.banner-3 {
+    background-image: url('banners/modelos\ \(3\).png');
+}
+
+.banners-1 {
+    background-image: url('./banners/WhatsApp\ Image\ 2024-06-12\ at\ 21.59.43\ \(5\).jpeg');
+}
+
+.banners-2 {
+    background-image: url('./banners/Snapinsta.app_425353247_18234523621247487_4876089388180849401_n_1024.jpg');
+}
+
+.banners-3 {
+    background-image: url('./banners/WhatsApp\ Image\ 2024-06-12\ at\ 21.59.42.jpeg');
+}
+
+.banners-4 {
+    background-image: url('./banners/WhatsApp\ Image\ 2024-06-12\ at\ 21.59.43.jpeg');
+}
+
+.banners-5 {
+    background-image: url('./banners/WhatsApp\ Image\ 2024-06-12\ at\ 21.59.43\ \(2\).jpeg');
+}
+
+.banners-6 {
+    background-image: url('./banners/WhatsApp\ Image\ 2024-06-12\ at\ 21.59.43\ \(3\).jpeg');
+}
+
+.banners-7 {
+    background-image: url('./banners/WhatsApp\ Image\ 2024-06-12\ at\ 21.59.43\ \(4\).jpeg');
+}
+
+.banners-8 {
+    background-image: url('./banners/WhatsApp\ Image\ 2024-06-12\ at\ 22.17.15.jpeg');
+}
+
+.banners-9 {
+    background-image: url('./banners/WhatsApp\ Image\ 2024-06-12\ at\ 21.59.43\ \(1\).jpeg');
+}
+
+.banners-10 {
+    background-image: url('./banners/WhatsApp\ Image\ 2024-06-12\ at\ 22.17.15\ \(1\).jpeg');
+}
+
+footer {
+    height: 300px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+span {
+    color: #fff;
+    font-family: 'Rubik';   
+}
+
+.footer-navigation {
+    display: none;
+    background-color: #000;
+}
+
+.footer-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-description {
+    display: none;
+}
+
+.footer-sinopse {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media(max-width: 768px){
+    .footer-navigation {
+        margin-right: 235px;
+        display: flex;
+    }
+
+    .barbearia {
+        padding: 30px 30px 0 0;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    nav {
+        display: none;
+    }    
+
+    #banner {
+        background-position: 2%;
+    }
+
+    .description {
+       display: none;
+    }
+
+    .texto {
+    font-size: 19px;
+        width: 100%;
+    }
+
+    .button {
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .cards-content {
+        grid-template-columns: 1fr;
+        margin-top: 30px;
+    }
+
+    .footer-description {
+        display: block;
+    }
+   
+}
